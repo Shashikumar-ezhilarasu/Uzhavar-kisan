@@ -1,6 +1,5 @@
-# Project Kisan - Development Summary
+# **Status: 🚧 In Active Development**
 
-## 🎉 What We've Built So Far
 
 ### ✅ COMPLETED FEATURES
 
