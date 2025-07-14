@@ -1,5 +1,3 @@
-# 🌾 Project Kisan - AI Assistant for Small-Scale Farmers
-
 > **Status: 🚧 In Active Development**
 
 An AI-powered farming assistant designed specifically for small-scale farmers in India. Get crop disease diagnosis, real-time market prices, and government scheme information - all in your local language through voice-first interaction.
