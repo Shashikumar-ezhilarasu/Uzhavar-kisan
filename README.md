@@ -23,7 +23,7 @@ Project Kisan aims to democratize agricultural technology by providing farmers w
   - Plant disease simulation with detailed remedies
   - Supported plants endpoint (`GET /api/disease/supported-plants`)
 - ✅ **Error Handling**: Comprehensive error responses
-- ✅ **Health Checks**: Server monitoring endpoint (`GET /health`)
+- ✅ **Health Checks**: Server monitoring endpoint (`GET /health`) 
 - ✅ **Demo Mode**: Working disease detection simulation
 
 ### 🌐 **Frontend (Next.js) - COMPLETED**
