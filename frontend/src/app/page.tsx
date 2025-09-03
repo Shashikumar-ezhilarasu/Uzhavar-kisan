@@ -122,6 +122,84 @@ export default function Home() {
           </div>
         </div>
       </main>
+      {/* All Features Section */}
+      <section className="container mx-auto px-4 py-12" id="all-features">
+        <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-xl p-8 md:p-12 mt-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-green-700 mb-8">All Features</h2>
+          <h3 className="text-xl font-semibold text-gray-800 mb-6 text-center">✅ Completed Features</h3>
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            {/* Completed Features Cards */}
+            <div className="bg-green-50 rounded-xl shadow p-6 flex flex-col items-start">
+              <span className="font-bold text-green-700 mb-2">Backend API (FastAPI)</span>
+              <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
+                <li>Disease Detection API</li>
+                <li>Health Check Endpoint</li>
+                <li>CORS Configuration</li>
+                <li>Error Handling</li>
+                <li>Demo Disease Database</li>
+              </ul>
+            </div>
+            <div className="bg-blue-50 rounded-xl shadow p-6 flex flex-col items-start">
+              <span className="font-bold text-blue-700 mb-2">Frontend Web App (Next.js)</span>
+              <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
+                <li>Landing Page</li>
+                <li>Dashboard</li>
+                <li>Disease Detection Page</li>
+                <li>Responsive Design</li>
+                <li>Modern UI</li>
+              </ul>
+            </div>
+            <div className="bg-yellow-50 rounded-xl shadow p-6 flex flex-col items-start">
+              <span className="font-bold text-yellow-700 mb-2">User Experience</span>
+              <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
+                <li>Image Upload</li>
+                <li>Real-time Analysis</li>
+                <li>Detailed Results</li>
+                <li>Confidence Scoring</li>
+                <li>Navigation</li>
+              </ul>
+            </div>
+          </div>
+          <h3 className="text-xl font-semibold text-gray-800 mb-6 text-center">🚧 Next To Build</h3>
+          <div className="grid md:grid-cols-4 gap-8 mb-8">
+            {/* Next To Build Feature Cards */}
+            <div className="bg-purple-50 rounded-xl shadow p-6 flex flex-col items-start">
+              <span className="font-bold text-purple-700 mb-2">Voice Features</span>
+              <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
+                <li>Speech-to-text (Kannada/English)</li>
+                <li>Voice navigation and responses</li>
+              </ul>
+            </div>
+            <div className="bg-pink-50 rounded-xl shadow p-6 flex flex-col items-start">
+              <span className="font-bold text-pink-700 mb-2">Market Prices</span>
+              <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
+                <li>Real-time crop prices from local mandis</li>
+                <li>Price trend analysis</li>
+                <li>Selling recommendations</li>
+              </ul>
+            </div>
+            <div className="bg-indigo-50 rounded-xl shadow p-6 flex flex-col items-start">
+              <span className="font-bold text-indigo-700 mb-2">Government Schemes</span>
+              <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
+                <li>Database of farmer subsidies and schemes</li>
+                <li>Eligibility checker</li>
+                <li>Application guidance</li>
+              </ul>
+            </div>
+            <div className="bg-gray-50 rounded-xl shadow p-6 flex flex-col items-start">
+              <span className="font-bold text-gray-700 mb-2">Advanced AI</span>
+              <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
+                <li>Real machine learning model</li>
+                <li>Multi-language support</li>
+                <li>Conversational chatbot</li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-4 text-center text-gray-500 text-sm">
+            <p><b>Current Status:</b> MVP core features complete. Next phase: Real AI model integration.</p>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 mt-20 border-t border-gray-200">
