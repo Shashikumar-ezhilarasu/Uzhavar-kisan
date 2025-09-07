@@ -3,7 +3,7 @@
 An AI-powered farming assistant designed specifically for small-scale farmers in India. Get crop disease diagnosis, real-time market prices, and government scheme information - all in your local language through voice-first interaction.
 
 <img width="1270" height="699" alt="image" src="https://github.com/user-attachments/assets/c89a9aa1-71b4-4f1e-92ef-f7b1424b6c0e" />
-
+ 
 ## 🎯 Project Vision
 
 Project Kisan aims to democratize agricultural technology by providing farmers with:
